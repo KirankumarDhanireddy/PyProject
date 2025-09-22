@@ -24,7 +24,7 @@ def navbar() -> rx.Component:
                         border_radius="25%",
                     ),
                     rx.heading(
-                        "Reflex", size="7", weight="bold"
+                        "KiruAI", size="7", weight="bold"
                     ),
                     align_items="center",
                 ),
@@ -82,7 +82,7 @@ def navbar() -> rx.Component:
                 align_items="center",
             ),
         ),
-        bg=rx.color("pink", 3),
+        background="center/cover url('/reflex_banner.png')",
         padding="1em",
         position="fixed",
         top="0px",
